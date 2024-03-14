@@ -1,0 +1,13 @@
+{
+  "name": "Reactify Figma - Boilerplate for creating Figma plugins",
+  "id": "1232842954289734532",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/index.html",
+  "editorType": ["figma", "dev"],
+  "permissions": ["currentuser"],
+  "networkAccess": {
+    "allowedDomains": ["*"],
+    "reasoning": "We use various external endpoints"
+  }
+}
